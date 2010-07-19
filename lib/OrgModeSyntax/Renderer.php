@@ -134,8 +134,8 @@ class OrgModeSyntax_Renderer
     foreach ($data as &$elt)
     {
       $elt = $this->renderDefinition($elt);
-      return join(PHP_EOL, array('<dl>', join(PHP_EOL, $data), '</dl>'));
     }
+    return join(PHP_EOL, array('<dl>', join(PHP_EOL, $data), '</dl>'));
   }
 
   protected function renderDefinition(Array $data)

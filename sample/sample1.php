@@ -15,6 +15,7 @@ foo [[http://example.com][bar]] baz
 ++ baz
 
 - aaa : bbb
+- ccc : ddd
 
 ';
 
